@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "routine": "soc-intake-and-voice",
+  "period": "2026-11",
+  "observed_at": "2026-11-05T12:48:36+05:30",
+  "work_id": "intake-2026-11",
+  "expected": true,
+  "delivery": "advanced",
+  "business": "unmeasured",
+  "summary": "Voice rules, plan files and a two week calendar seed are usable by the daily routines; voice samples and surface checks still need the browser",
+  "artifacts": [
+    "voice/voice.md",
+    "plan/audience.md",
+    "plan/pillars.md",
+    "plan/sources.md",
+    "plan/channels.md",
+    "calendar/inbox.jsonl"
+  ],
+  "blockers": [
+    {
+      "key": "intake-browser-phases",
+      "step": "own post read and surface verification",
+      "kind": "input",
+      "owner": "member",
+      "evidence": "state/soc-intake-and-voice.json",
+      "verified_at": "2026-11-05T12:48:36+05:30",
+      "next_action": "Member relaunches soc-intake-and-voice by hand with the browser signed in to Instagram",
+      "next_check": "next hand launch in 2026-11"
+    }
+  ],
+  "next_action": "Member relaunches the intake by hand with the browser to read own posts",
+  "next_check": "next hand launch in 2026-11",
+  "verified_artifacts": [
+    {
+      "path": "voice/voice.md",
+      "sha256": "edbd25bcbdff71b06b41afba023e141a70f8c4a3dd91d44946ac5349e1334ab9"
+    },
+    {
+      "path": "plan/audience.md",
+      "sha256": "25e4166100286c42bc7d75f3f1f1aa344475aa1a926044a9b2aba2585d51c519"
+    },
+    {
+      "path": "plan/pillars.md",
+      "sha256": "2584903dbe3bfb1d180dfb49466da5e248d1a4dd1a415b623fee35d367c96528"
+    },
+    {
+      "path": "plan/sources.md",
+      "sha256": "a0a56a81ca37b818e11580b21578b4d38fc99c993aa9e826ecd897775e424cc0"
+    },
+    {
+      "path": "plan/channels.md",
+      "sha256": "aee1bf5aa8760cf5f8410ca472426adca768584c1305be7c40c720eb577f2c4f"
+    },
+    {
+      "path": "calendar/inbox.jsonl",
+      "sha256": "0599a2a8b4906115e445fee17fbdea3d520a05a788f6056589a3055aa924eef1"
+    }
+  ]
+}

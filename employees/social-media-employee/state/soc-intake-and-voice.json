@@ -1,0 +1,44 @@
+{
+  "last_period": "2026-11",
+  "started": "2026-11-05T12:45:21+05:30",
+  "complete": false,
+  "progress": [
+    "grounded",
+    "tree-created",
+    "research",
+    "voice-built",
+    "plan-written",
+    "calendar-seeded",
+    "schedule-reconciled",
+    "standup-invocation-proved"
+  ],
+  "recipes": [],
+  "budget_minutes_used": 6,
+  "assumptions": [
+    "quick install at the member request: browser phases skipped (own post read, surface verification), schedules not registered, supervised draft-queue test not run",
+    "voice/voice.md has no samples: no published post read; banned lists derived from BRAND.md voice rules plus common hype shapes",
+    "hashtag policy none: no published post read to show a hashtag habit",
+    "three pillars chosen from five brand topics: Git and GitHub, Python basics, Tools and shortcuts; How things work and Student life in tech left out",
+    "Saturday brand post day dropped from the seed: the kit seeds no weekend slots",
+    "default_time 21:30 machine time (Asia/Calcutta), about 18:00 in Riga, the audience evening; not yet checked against when own posts cluster",
+    "Instagram character_cap, url_cost and first_line_fold written unknown: must be read off the platform, not from memory",
+    "destination name First Commit Instagram feed chosen for the calendar slots",
+    "audience-places, own-saved and own-inbound left empty for soc-material-sweep; no audience search run on this install",
+    "SCHEDULE.md rows all present and both orderings hold: no row changed",
+    "launcher uses the npm install of claude (AppData Roaming npm claude.cmd), not the native .local bin path in the example",
+    "under acceptEdits the headless standup could not run node scripts; it took the in-agent guard and runlog routes"
+  ],
+  "soc_root": "C:Users\u000bjsudai\repoemployeessocial-media-employee",
+  "timezone_id_at_intake": "India Standard Time",
+  "capability_notes": [
+    "no browser lane used on this install, by member request",
+    "channel.schedule and channel.publish: no route on this machine",
+    "web.fetch present (WebFetch), web.search present (WebSearch)",
+    "shell.run present in the interactive session; denied to the headless run under acceptEdits for node scripts"
+  ],
+  "installed_employees": [],
+  "registered_times": {},
+  "voice_built_on": "2026-11-05",
+  "voice_sample_urls": [],
+  "research_done_on": "2026-11-05"
+}
