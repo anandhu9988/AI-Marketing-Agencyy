@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First Commit: tech tips for beginners</title>
+<meta name="description" content="Short, tested tech tips for beginners: Git, Python, VS Code and how the web works. By three IT students in Riga.">
+<style>
+  :root { --ivory:#F2EEE5; --ink:#191919; --orange:#E64B2E; --grey:#B8B8B0; --mute:#66645E; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--ivory); color:var(--ink); font-family:"Helvetica Neue", Inter, Arial, sans-serif; line-height:1.5; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 28px; }
+  .meta { font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--mute); }
+  header { border-bottom:1px solid var(--ink); }
+  header .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .logo { font-weight:800; letter-spacing:-.02em; font-size:18px; }
+  .logo b { color:var(--orange); }
+  nav a { color:var(--ink); text-decoration:none; font-size:14px; margin-left:22px; }
+  .hero { display:grid; grid-template-columns:7fr 5fr; gap:28px; padding:72px 0 64px; border-bottom:1px solid var(--grey); }
+  h1 { font-size:clamp(44px, 7vw, 88px); line-height:.95; letter-spacing:-.035em; font-weight:800; margin:18px 0 26px; }
+  h1 span { color:var(--orange); }
+  .lede { font-size:19px; max-width:34ch; }
+  .terminal { background:var(--ink); color:#E9E5DA; font-family:"Courier New", monospace; font-size:14px; padding:22px; align-self:end; }
+  .terminal .c { color:var(--grey); } .terminal .o { color:var(--orange); }
+  section { padding:56px 0; border-bottom:1px solid var(--grey); }
+  h2 { font-size:34px; letter-spacing:-.02em; margin:10px 0 28px; }
+  .pillars { list-style:none; border-top:1px solid var(--ink); }
+  .pillars li { display:grid; grid-template-columns:60px 1fr 2fr; gap:20px; padding:16px 0; border-bottom:1px solid var(--grey); }
+  .pillars .n { color:var(--orange); font-weight:700; font-size:13px; }
+  .pillars strong { font-size:18px; }
+  .pillars p { color:var(--mute); }
+  .tips { display:grid; grid-template-columns:repeat(2, 1fr); gap:0; border-top:1px solid var(--ink); }
+  .tip { padding:22px 22px 26px 0; border-bottom:1px solid var(--grey); }
+  .tip:nth-child(odd) { border-right:1px solid var(--grey); }
+  .tip:nth-child(even) { padding-left:22px; }
+  .tip h3 { font-size:20px; margin:6px 0 10px; letter-spacing:-.01em; }
+  code, pre { font-family:"Courier New", monospace; }
+  pre { background:#fff; border:1px solid var(--ink); padding:12px 14px; font-size:13.5px; overflow-x:auto; margin-top:8px; }
+  kbd { font-family:"Courier New", monospace; border:1px solid var(--ink); padding:1px 6px; font-size:13px; background:#fff; }
+  .about { display:grid; grid-template-columns:5fr 7fr; gap:28px; }
+  .big { font-size:120px; font-weight:800; line-height:.8; color:var(--orange); letter-spacing:-.05em; }
+  footer { padding:28px 0 40px; }
+  footer .wrap { display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+  a.cta { display:inline-block; margin-top:22px; background:var(--orange); color:var(--ivory); padding:12px 18px; text-decoration:none; font-weight:700; }
+  @media (max-width:760px) {
+    .hero, .about { grid-template-columns:1fr; }
+    .tips { grid-template-columns:1fr; }
+    .tip:nth-child(odd) { border-right:0; } .tip:nth-child(even) { padding-left:0; }
+    .pillars li { grid-template-columns:40px 1fr; } .pillars p { grid-column:2; }
+    nav { display:none; }
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="logo">first<b>_</b>commit</div>
+  <nav><a href="#learn">What we post</a><a href="#tips">Tips</a><a href="#about">About</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <p class="meta">Tech tips for beginners · Riga, Latvia</p>
+      <h1>Every developer has a first commit<span>.</span></h1>
+      <p class="lede">Short, tested tips on Git, Python, VS Code and how the web works, explained in plain words by three IT students.</p>
+      <a class="cta" href="https://www.instagram.com/firstcommit.tips/">Follow on Instagram</a>
+    </div>
+    <pre class="terminal"><span class="c">$</span> git init
+<span class="c">Initialized empty Git repository</span>
+<span class="c">$</span> git add .
+<span class="c">$</span> git commit -m <span class="o">"first commit"</span>
+<span class="c">[main (root-commit)] first commit</span></pre>
+  </div>
+
+  <section id="learn">
+    <p class="meta">01 · What we post</p>
+    <h2>Five topics, one small tip at a time</h2>
+    <ul class="pillars">
+      <li><span class="n">01</span><strong>Git &amp; GitHub</strong><p>Saving your work, branches, and how to undo mistakes without panic.</p></li>
+      <li><span class="n">02</span><strong>Python basics</strong><p>Readable code: list comprehensions, f-strings, virtual environments.</p></li>
+      <li><span class="n">03</span><strong>Tools &amp; shortcuts</strong><p>VS Code and the terminal, so the tools stop getting in your way.</p></li>
+      <li><span class="n">04</span><strong>How things work</strong><p>URLs, DNS, APIs: what actually happens behind the screen.</p></li>
+      <li><span class="n">05</span><strong>Student life in tech</strong><p>Study routines and first-internship lessons from our own semesters.</p></li>
+    </ul>
+  </section>
+
+  <section id="tips">
+    <p class="meta">02 · Latest tips</p>
+    <h2>Try one in the next five minutes</h2>
+    <div class="tips">
+      <article class="tip"><p class="meta">Git</p><h3>Your first snapshot, in three commands</h3>
+        <p><code>init</code> starts tracking a folder, <code>add</code> chooses what to save, <code>commit</code> saves it with a message.</p></article>
+      <article class="tip"><p class="meta">VS Code · Windows</p><h3>Five shortcuts worth learning</h3>
+        <p><kbd>Ctrl+P</kbd> open a file · <kbd>Ctrl+Shift+P</kbd> command palette · <kbd>Alt+↑/↓</kbd> move a line · <kbd>Ctrl+D</kbd> select the next match · <kbd>Ctrl+`</kbd> terminal</p></article>
+      <article class="tip"><p class="meta">Python</p><h3>One line instead of four</h3>
+        <pre>squares = [n * n for n in range(10)]</pre>
+        <p>Same result as the loop. Use it when it stays readable.</p></article>
+      <article class="tip"><p class="meta">How the web works</p><h3>What happens when you type a URL</h3>
+        <p>Your browser asks DNS for the server's address, sends a request, gets a response, and renders the page, usually in under a second.</p></article>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="big">03</div>
+    <div>
+      <p class="meta">03 · About</p>
+      <h2>Made by students, for beginners</h2>
+      <p>We are three Information Technology students at Riga Nordic University. First Commit shares the tips we wish we had in our first semester. Every command and shortcut is tested before we post it.</p>
+      <p style="margin-top:12px;color:var(--mute)">Questions or topic requests? Send us a DM on Instagram.</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <span class="meta">first_commit · Riga · 2026</span>
+  <span class="meta">A student project · Riga Nordic University</span>
+</div></footer>
+</body>
+</html>

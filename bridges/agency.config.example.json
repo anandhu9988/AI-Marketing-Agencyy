@@ -1,0 +1,15 @@
+{
+  "agency": "AI Marketing Agency",
+  "webAppUrl": "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE",
+  "secret": "CHANGE_ME_TO_A_LONG_RANDOM_STRING",
+  "employees": [
+    { "agent": "Project Manager (Chief of Staff)",           "folder": "../employees/chief-of-staff" },
+    { "agent": "Lead Researcher (SEO/AEO Employee)",          "folder": "../employees/seo-employee" },
+    { "agent": "Content Writer (Social Media Employee)",      "folder": "../employees/social-media-employee" },
+    { "agent": "Performance Analyst (Ad Manager Employee)",   "folder": "../employees/ad-manager-employee" },
+    { "agent": "Campaign Builder (GTM Engineer)",             "folder": "../employees/gtm-engineer" },
+    { "agent": "Technical Auditor (Web Dev Employee)",        "folder": "../employees/web-dev-employee" },
+    { "agent": "Support Triage (Customer Satisfaction Employee)", "folder": "../employees/customer-satisfaction-employee" },
+    { "agent": "Outbound Strategist (Sales Employee)",        "folder": "../employees/sales-employee" }
+  ]
+}
